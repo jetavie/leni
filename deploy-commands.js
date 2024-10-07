@@ -35,7 +35,7 @@ const commands = [
     },
 ];
 
-const rest = new REST({ version: '10' }).setToken(token); // Ensure you are using the correct version
+const rest = new REST({ version: '10' }).setToken(token);
 
 (async () => {
     try {
