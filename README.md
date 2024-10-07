@@ -37,13 +37,6 @@ node index.js
 ```
 
 # Usage
-- Use `/blacklist @user reason` to blacklist a user.
-- Use `/remove-blacklist @user` to remove a user from the blacklist.
-NOTE: Make sure you have the role "Blacklisted" in your discord server, or refer to lines with:
-```discord.js
-const blacklistRole = interaction.guild.roles.cache.find(role => role.name === 'Blacklisted');
-```
-Then, change the blacklisted role to the name of your liking!
 
 | Command       | Description                           |
 | ------------- | ------------------------------------- |
@@ -55,4 +48,24 @@ Feel free to open issues or submit pull requests.
 
 # License
 [MIT](https://opensource.org/license/MIT)
+
+# Addeneum
+
+NOTE: Make sure you have the role "Blacklisted" in your discord server. If you want to use a different name, refer to lines with:
+```discord.js
+const blacklistRole = interaction.guild.roles.cache.find(role => role.name === 'Blacklisted');
+```
+If you don't make these changes otherwise, you'll get this error:
+
+`"Blacklist role not found."`
+
+This is also true for members with staff roles:
+
+```discord.js
+const staffRole = interaction.guild.roles.cache.find(role => role.name === 'Staff'); 
+```
+If you don't make these changes otherwise, you'll get this error too:
+
+`"⚠️ You reqiure elevated permissions to do this."`
+
 
