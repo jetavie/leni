@@ -10,13 +10,13 @@ const commands = [
             {
                 name: 'user',
                 description: 'The user to blacklist',
-                type: 6, // User type
+                type: 6, 
                 required: true,
             },
             {
                 name: 'reason',
                 description: 'Reason for blacklisting',
-                type: 3, // String type
+                type: 3, 
                 required: true,
             },
         ],
