@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 
-const TOKEN = 'MTI5MjAyMjcwNTE2MzQ2ODg2Mg.GZEUPD.veKNfggmPNM92ErrpkrIOyS1f5wMpCcRBFq6cg';  // Replace with your bot token
+const TOKEN = 'YOUR-TOKEN-HERE';  // Replace with your bot token
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
