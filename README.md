@@ -1,4 +1,4 @@
-# Discord Bot Project
+# Leni
 
 A simple Discord bot built with `discord.js` to manage blacklisting users in a server.
 
