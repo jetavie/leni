@@ -16,5 +16,5 @@ A simple Discord bot built with `discord.js` to manage blacklisting users in a s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-url.git
+   git clone https://github.com/jetavie/leni
    cd your-repository-name
