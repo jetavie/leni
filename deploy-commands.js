@@ -1,5 +1,5 @@
 const { REST } = require('@discordjs/rest');
-const { Routes } = require('discord-api-types/v10'); // Ensure this matches the API version you're using
+const { Routes } = require('discord-api-types/v10'); // Ensure this matches the API version you're using!
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
