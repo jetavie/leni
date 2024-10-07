@@ -1,4 +1,4 @@
-# Leni
+![leni github banner](https://github.com/user-attachments/assets/761a9c7d-cff8-4636-9cea-67e3d432987d)
 
 A simple Discord bot built with `discord.js` to manage blacklisting users in a server.
 
