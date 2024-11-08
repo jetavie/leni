@@ -37,7 +37,7 @@ const client = new Client({
 // Bot ready event
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
-    client.user.setActivity('for infractions', { type: 'WATCHING' });
+    client.user.setActivity('your status here', { type: 'WATCHING' });
 });
 
 // Command handling
