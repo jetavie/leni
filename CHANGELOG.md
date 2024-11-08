@@ -27,9 +27,9 @@
 - Improved interaction response handling
 
 ### Requirements
-- Requires 'Moderator ⚔️' role for command usage
+- Requires 'Staff' role (or similar) for command usage
 - Requires 'Blacklisted' role to be created in server
-- Requires 'mod-logs' channel for logging (optional)
+- Requires 'mod-logs' channel for logging (optional!)
 
 ### Note
 This version represents a major update with breaking changes from v1.x. Server administrators will need to re-deploy commands using the updated deploy-commands.js file.
