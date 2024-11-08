@@ -16,7 +16,7 @@
 
 ### Fixed
 - "Application not responding" issue in remove-blacklist command (this wasn't working in some cases, sorry)
-- Role persistence issues across user reconnects (even if your instance goes down, leni will remember (ദ്ദി ( ᵔ ᗜ ᵔ )
+- Role persistence issues across user reconnects (even if your instance goes down, leni will remember (ദ്ദി ( ᵔ ᗜ ᵔ ))
 - Command timeout handling
 
 ### Technical Changes (for nerds)
