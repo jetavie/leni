@@ -17,6 +17,8 @@ A simple Discord bot built with `discord.js` to manage blacklisting users in a s
 
 ## Installation
 
+🆕 **You can download leni from [releases](https://github.com/jetavie/leni/releases/tag/2.0) now! Just simply edit the code as you wish in an IDE!** *(... Or you can still clone if you wish to, though!)*
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/jetavie/leni
