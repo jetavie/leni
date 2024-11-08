@@ -47,7 +47,7 @@ client.on('interactionCreate', async (interaction) => {
     const { commandName, options } = interaction;
 
     // Check for Staff role
-    const staffRole = interaction.guild.roles.cache.find(role => role.name === 'Moderator ⚔️');
+    const staffRole = interaction.guild.roles.cache.find(role => role.name === 'Staff');
     if (!staffRole) {
         return interaction.reply({
             content: '❌ Staff role not found! Please create a role named "Staff".',
