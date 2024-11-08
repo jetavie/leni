@@ -2,6 +2,9 @@
 
 A simple Discord bot built with `discord.js` to manage blacklisting users in a server.
 
+# Heads Up!!
+🆕 **Version 2.0.0 is now available!** Now featuring timed blacklists and improved moderation tools. [See the changelog](./CHANGELOG.md)
+
 ## Features
 - Blacklist users with a reason and notify them via DM.
 - Remove users from the blacklist and notify them.
