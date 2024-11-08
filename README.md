@@ -27,7 +27,7 @@ A simple Discord bot built with `discord.js` to manage blacklisting users in a s
 ```
 npm install
 ```
-3. Create a `config.json` file in the root directory:
+3. Create a `config.json` file in the root directory, then paste this:
 ```
 {
     "clientId": "YOUR_BOT_CLIENT_ID",
@@ -38,6 +38,7 @@ npm install
 
 4. Run the bot:
 ```
+node deploy-commands.js
 node index.js
 ```
 
