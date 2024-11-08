@@ -25,5 +25,5 @@
 - Added timeout cleanup on re-blacklist and manual removal
 - Improved interaction response handling (did i type this already?)
 
-### Note
+### Please Note!
 This version represents a major update with breaking changes from v1.x. Server administrators will need to re-deploy commands using the updated deploy-commands.js file.
